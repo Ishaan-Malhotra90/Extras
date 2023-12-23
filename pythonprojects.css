@@ -175,7 +175,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 230vh;
+        top: 240vh;
     }
 }
 @media (max-width: 800px ) 
@@ -189,7 +189,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 190vh;
+        top: 200vh;
     }
 }
 @media (max-width: 768px ) 
@@ -203,7 +203,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 230vh;
+        top: 240vh;
     }
 }
 @media (max-width: 500px)
@@ -216,7 +216,7 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 160vh;
+        top: 170vh;
     }
 }
 @media (max-width: 350px)
@@ -229,6 +229,6 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 190vh;
+        top: 200vh;
     }
 }
