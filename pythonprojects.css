@@ -107,9 +107,16 @@ nav a:first-child::before {
 
     text-align: justify;
 }
-.border1 {
+.technicalskillscontainer img
+{
     position: relative;
     top: 0vh;
+    left: 22vw;
+    width: 50vw;
+}
+.border1 {
+    position: relative;
+    top: 5vh;
     left: 0vw;
     width: 90vw;
     height: 0.1vh;
@@ -123,7 +130,7 @@ nav a:first-child::before {
     justify-content: space-between;
     width: 90vw;
     position: relative;
-    top: 215vh;
+    top: 375vh;
     left: 5vw;
 }
 
@@ -163,6 +170,12 @@ nav a:first-child::before {
         left: 5%;
         top: 50%;
     }
+    .contact-headings
+    {
+        position: absolute;
+        justify-content: space-evenly;
+        top: 320vh;
+    }
 }
 @media (max-width: 885px ) 
 {
@@ -175,7 +188,21 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 240vh;
+        top: 320vh;
+    }
+}
+@media (max-width: 821px ) 
+{
+    nav a:first-child::before {
+        position: absolute;
+        left: 0.5vw; 
+        top: 1vh;
+    }
+    .contact-headings
+    {
+        position: absolute;
+        justify-content: space-evenly;
+        top: 300vh;
     }
 }
 @media (max-width: 800px ) 
@@ -189,7 +216,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 200vh;
+        top: 260vh;
     }
 }
 @media (max-width: 768px ) 
@@ -203,7 +230,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 240vh;
+        top: 320vh;
     }
 }
 @media (max-width: 500px)
@@ -216,7 +243,7 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 170vh;
+        top: 225vh;
     }
 }
 @media (max-width: 350px)
@@ -229,6 +256,6 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 200vh;
+        top: 255vh;
     }
 }
