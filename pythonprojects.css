@@ -107,7 +107,7 @@ nav a:first-child::before {
 
     text-align: justify;
 }
-.technicalskillscontainer img
+.technicalskillscontainer .image
 {
     position: relative;
     top: 0vh;
@@ -116,7 +116,7 @@ nav a:first-child::before {
 }
 .border1 {
     position: relative;
-    top: 3vh;
+    top: 5vh;
     left: 0vw;
     width: 90vw;
     height: 0.1vh;
@@ -124,31 +124,42 @@ nav a:first-child::before {
     z-index: 1;
     margin-bottom: 10vh;
   }
-  .contact-headings {
-    
+  .technicalskillscontainer .contact-headings {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
     position: relative;
-    top: 380vh;
-    left: 5vw;
+    top: 0vh;
+    left: 0vw;
+
 }
 
-.contact-heading {
+.technicalskillscontainer .contact-heading {
     font-size: 3vmin;
     font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
+    width: 18vw;
 }
-.contact-info {
+.technicalskillscontainer .contact-info {
    font-size: 2.5vmin;
    font-family: 'Fredoka', sans-serif;
+   width: 18vw;
 }
 .follow-icons {
     display: flex;
     align-items: center;
+    
 }
 .follow-icon {
+    left: 0vw;
     width: 3vmin;
     margin-right: 2vmin;
+}
+.technicalskillscontainer .copyright
+{
+    top: -3vh;
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
 }
 @media (max-width: 1025px)
 {
@@ -170,11 +181,12 @@ nav a:first-child::before {
         left: 5%;
         top: 50%;
     }
-    .contact-headings
+    .technicalskillscontainer p{
+        width: 90vw;
+    }
+    .contact-heading
     {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 330vh;
+        width: 18vw;
     }
 }
 @media (max-width: 885px ) 
@@ -183,92 +195,5 @@ nav a:first-child::before {
         position: absolute;
         left: 0.5vw; 
         top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 340vh;
-    }
-}
-@media (max-width: 821px ) 
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 320vh;
-    }
-}
-@media (max-width: 800px ) 
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 280vh;
-    }
-}
-@media (max-width: 768px ) 
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 345vh;
-    }
-}
-@media (max-width: 500px)
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        justify-content: space-evenly;
-        top: 235vh;
-    }
-}
-@media (max-width: 376px)
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        justify-content: space-evenly;
-        top: 240vh;
-    }
-}
-@media (max-width: 350px)
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        justify-content: space-evenly;
-        top: 270vh;
     }
 }
