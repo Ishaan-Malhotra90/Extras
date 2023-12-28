@@ -231,6 +231,19 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
+        top: 180vh;
+    }
+}
+@media (max-width: 350px)
+{
+    nav a:first-child::before {
+        position: absolute;
+        left: 0.5vw; 
+        top: 1vh;
+    }
+    .contact-headings
+    {
+        justify-content: space-evenly;
         top: 175vh;
     }
 }
