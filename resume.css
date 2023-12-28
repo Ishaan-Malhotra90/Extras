@@ -122,7 +122,7 @@ nav a:first-child::before {
     justify-content: space-between;
     width: 90vw;
     position: relative;
-    top: 245vh;
+    top: 250vh;
     left: 5vw;
 }
 
@@ -131,7 +131,7 @@ nav a:first-child::before {
     font-family: 'Work Sans', sans-serif;
 }
 .contact-info {
-   font-size: 3vmin;
+   font-size: 2.5vmin;
    font-family: 'Fredoka', sans-serif;
 }
 .follow-icons {
@@ -184,7 +184,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 210vh;
+        top: 215vh;
     }
 }
 @media (max-width: 800px ) 
@@ -198,7 +198,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 180vh;
+        top: 185vh;
     }
 }
 @media (max-width: 768px ) 
@@ -212,7 +212,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 220vh;
+        top: 225vh;
     }
 }
 @media (max-width: 500px)
@@ -225,7 +225,7 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 155vh;
+        top: 160vh;
     }
 }
 @media (max-width: 350px)
@@ -238,6 +238,6 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 170vh;
+        top: 175vh;
     }
 }
