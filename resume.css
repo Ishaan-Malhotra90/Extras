@@ -164,6 +164,7 @@ nav a:first-child::before {
     }
     .technicalskillscontainer p{
         width: 90vw;
+
     }
 }
 @media (max-width: 885px ) 
@@ -221,7 +222,7 @@ nav a:first-child::before {
         top: 160vh;
     }
 }
-@media (max-width: 350px)
+@media (max-width: 375px)
 {
     nav a:first-child::before {
         position: absolute;
