@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Mochiy+Pop+P+One&family=Outfit:wght@200;700&family=Work+Sans:ital,wght@0,100;0,600;1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Fira+Mono&family=Fredoka:wght@300;400&family=Mochiy+Pop+P+One&family=Outfit:wght@200;700&family=Work+Sans:ital,wght@0,100;0,600;1,600&display=swap');
 .body
 {
     background-color: #F3F3F3;
@@ -102,7 +102,7 @@ nav a:first-child::before {
     left: 0vw;
     font-size: 3vmin;
     width: 90vw;
-    font-family: 'Caveat', cursive;
+    font-family: 'Fredoka', sans-serif;
 
     text-align: justify;
 }
@@ -131,8 +131,8 @@ nav a:first-child::before {
     font-family: 'Work Sans', sans-serif;
 }
 .contact-info {
-   font-size: 3vmin;
-   font-family: 'Caveat', cursive;
+   font-size: 2.5vmin;
+   font-family: 'Fredoka', sans-serif;
 }
 .follow-icons {
     display: flex;
@@ -174,7 +174,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 230vh;
+        top: 135vh;
     }
 }
 @media (max-width: 800px ) 
@@ -188,7 +188,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 190vh;
+        top: 115vh;
     }
 }
 @media (max-width: 768px ) 
@@ -202,7 +202,7 @@ nav a:first-child::before {
     {
         position: absolute;
         justify-content: space-evenly;
-        top: 230vh;
+        top: 135vh;
     }
 }
 @media (max-width: 500px)
@@ -215,7 +215,7 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 100vh;
+        top: 105vh;
     }
 }
 @media (max-width: 350px)
@@ -228,6 +228,6 @@ nav a:first-child::before {
     .contact-headings
     {
         justify-content: space-evenly;
-        top: 110vh;
+        top: 115vh;
     }
 }
