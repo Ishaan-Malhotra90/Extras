@@ -116,7 +116,7 @@ nav a:first-child::before {
 }
 .border1 {
     position: relative;
-    top: 5vh;
+    top: 3vh;
     left: 0vw;
     width: 90vw;
     height: 0.1vh;
