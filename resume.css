@@ -72,6 +72,7 @@ nav a:first-child::before {
     position: absolute;
     top: 10vh;
     left: 5vw;
+    
 }
 .technicalskillscontainer h1{
     position: relative;
@@ -116,23 +117,24 @@ nav a:first-child::before {
     z-index: 1;
     margin-bottom: 10vh;
   }
-  .contact-headings {
-    
+ .technicalskillscontainer .contact-headings {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
     position: relative;
-    top: 250vh;
-    left: 5vw;
+    top: 0vh;
+    left: 0vw;
+
 }
 
-.contact-heading {
+.technicalskillscontainer .contact-heading {
     font-size: 3vmin;
     font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
 }
-.contact-info {
+.technicalskillscontainer .contact-info {
    font-size: 2.5vmin;
    font-family: 'Fredoka', sans-serif;
+   width: 18vw;
 }
 .follow-icons {
     display: flex;
@@ -141,6 +143,13 @@ nav a:first-child::before {
 .follow-icon {
     width: 3vmin;
     margin-right: 2vmin;
+}
+.technicalskillscontainer .copyright
+{
+    top: -3vh;
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
 }
 @media (max-width: 1025px)
 {
@@ -164,7 +173,10 @@ nav a:first-child::before {
     }
     .technicalskillscontainer p{
         width: 90vw;
-
+    }
+    .contact-heading
+    {
+        width: 18vw;
     }
 }
 @media (max-width: 885px ) 
@@ -173,66 +185,5 @@ nav a:first-child::before {
         position: absolute;
         left: 0.5vw; 
         top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 215vh;
-    }
-}
-@media (max-width: 800px ) 
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 185vh;
-    }
-}
-@media (max-width: 768px ) 
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        position: absolute;
-        justify-content: space-evenly;
-        top: 225vh;
-    }
-}
-@media (max-width: 500px)
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        justify-content: space-evenly;
-        top: 160vh;
-    }
-}
-
-@media (max-width: 350px)
-{
-    nav a:first-child::before {
-        position: absolute;
-        left: 0.5vw; 
-        top: 1vh;
-    }
-    .contact-headings
-    {
-        justify-content: space-evenly;
-        top: 175vh;
     }
 }
