@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Mochiy+Pop+P+One&family=Outfit:wght@200;700&family=Work+Sans:ital,wght@0,100;0,600;1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Fira+Mono&family=Fredoka:wght@300;400&family=Mochiy+Pop+P+One&family=Outfit:wght@200;700&family=Work+Sans:ital,wght@0,100;0,600;1,600&display=swap');
 .body
 {
     background-color: #F3F3F3;
@@ -123,7 +123,7 @@ nav a:first-child::before {
     top: -10vh;
     left: 0vw;
     font-size: 3vmin;
-    font-family: 'Caveat', cursive;
+    font-family: 'Fredoka', sans-serif;
     text-align: justify;
     opacity: 0;
     transition: opacity 1.5s ease-out, transform 1.5s ease-out;
@@ -165,7 +165,7 @@ nav a:first-child::before {
 }
 .contact-info {
    font-size: 3vmin;
-   font-family: 'Caveat', cursive;
+   font-family: 'Fredoka', sans-serif;
 }
 .follow-icons {
     display: flex;
