@@ -163,14 +163,7 @@ nav a:first-child::before {
         top: 50%;
     }
     .technicalskillscontainer p{
-        position: relative;
-        top: 0vh;
-        left: 0vw;
-        font-size: 3vmin;
         width: 90vw;
-        font-family: 'Caveat', cursive;
-        word-spacing: 3vmin;
-        text-align: justify;
     }
 }
 @media (max-width: 885px ) 
